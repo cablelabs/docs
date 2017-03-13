@@ -12,6 +12,7 @@ project rdkb/components/opensource/ccsp/CcspMisc/
 95b95d1 BLDK-443 Update LICENSE, NOTICE and COPYING files.
 
 project rdkb/components/opensource/ccsp/CcspMoCA/
+fdc0123 RDKB-10372 : X_CISCO_NetworkCoordinatorMACAddress is giving wrong value
 9396106 RDKB-8513 : TR-181 parameter implementation
 c4e3f09 RDKB-10330 : For RxPowerLevel , datatype to be changed to int
 
@@ -22,6 +23,7 @@ project rdkb/components/opensource/ccsp/CcspPandM/
 f0a35ea RDKBEMU-357 : CcspPandM crashes when trying to add a rule for Port Forwarding
 
 project rdkb/components/opensource/ccsp/CcspTr069Pa/
+5105feb RDKBEMU-382 : Upstream Tr069 Implementation in ccsp-tr069-pa
 78c6958 CISCOXB3-2036:No mapping for components even after dmcli is success.
 2bd80e4 BLDK-443 Update LICENSE, NOTICE and COPYING files.
 
@@ -32,6 +34,10 @@ project rdkb/components/opensource/ccsp/GwProvApp/
 1e7cb2a RDKBCMF-42 : Remove Docsis Dependencies from GwProvApp for RaspberryPi Platform
 
 project rdkb/components/opensource/ccsp/TestAndDiagnostic/
+a8e482e RDKB-9367 : Log file-nr regularly and nr_open to selfheal.txt
+3f1bc3b RDKB-10381 : Need a error log in SelfHeal logs when dnsmasq is not running
+5e94b9a RDKB-10459 :Xfinity Home security not working after Arris XB3 upgrade to 2.4s7
+2107c35 RDKB-10417 : Speedtest Client does not remain Enabled after device reboot
 a53b6f6 RDKB-9367 : Log file-nr and nr_open in selfheal
 da7c207 RDKB-10332:Bring proper time-stamp in all logs of RDK-B Devices-dcm scripts
 879d553 WEBPA-1696,WEBPA-1717 : parodus DISTRO_FEATURES and remove parodus env variables
@@ -75,10 +81,14 @@ e1784be RDKBEMU-381 : Upstream Tr069 Implementation in Hal
 33ea251 RDKB-10330 : [HAL] For RxPowerLevel , datatype to be changed to int
 d7f9f55 RDKB-7549,RDKB-7550,RDKB-7553,RDKB-7555,RDKB-7557 : Doxygen Documentation HAL
 
+project rdkb/components/opensource/ccsp/halinterface/
+6780f5a RDKB-5987: Merged changes from generic codebase.
+
 project rdkb/components/opensource/ccsp/servicemanager/
 e902322 RDKB-10433 : dmcli GET SET failed for CcspserviceManager
 
 project rdkb/components/opensource/ccsp/sysint/
+3483379 ARRISXB3-5651 : cron job race condition protection
 934d452 ARRISXB6-3682 : Fix continuous reboot in the case of pcie HW failure.
 cfb5e31 RDKB-9428 : Develop Code-Add Partner ID to Telemetry
 f3d1bdc RDKB-10332:Bring proper time-stamp in all logs of RDK-B Devices-dcm scripts
